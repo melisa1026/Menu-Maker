@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df318deb329cb9347b61e7792c91b76e, type: 3}
+  m_Name: All character data
+  m_EditorClassIdentifier: 
+  shirts: {fileID: 11400000, guid: 3726ffd5db20566428fb99f4c9ec2144, type: 2}
+  pants: {fileID: 11400000, guid: 325a32f36da902044ace8e4650056c41, type: 2}
+  shoes: {fileID: 11400000, guid: 2619115f8c15605498f0a21c12aabc2b, type: 2}
+  body: {fileID: 11400000, guid: 433ba3854b68dcd44b177276b9147b5e, type: 2}
+  eyes: {fileID: 11400000, guid: 5f59d75f6fea6514b92cd177a06d69f7, type: 2}
+  nose: {fileID: 11400000, guid: be038a5ef6544f7468568ae79729b632, type: 2}
+  mouth: {fileID: 11400000, guid: cd34503b81b79134b8308852536215a8, type: 2}
+  hairFront: {fileID: 11400000, guid: 6f310c0e2b9679c4dae5f3a1a17ede41, type: 2}
+  hairBack: {fileID: 11400000, guid: 80d2a4a09ba9f0d45a77f07fa5614e3c, type: 2}
+  facialHair: {fileID: 11400000, guid: 1d3a260b6d6bfc844bbe640f7d8465ce, type: 2}
+  eyebrows: {fileID: 11400000, guid: ad90feb587d586d41a5ca2dde61ebe6e, type: 2}
+  colours: {fileID: 11400000, guid: a5e70b7296613494989323a5a3d10396, type: 2}
+  names: {fileID: 11400000, guid: ce9ffee23a2701b4e813bae825f7a5a0, type: 2}

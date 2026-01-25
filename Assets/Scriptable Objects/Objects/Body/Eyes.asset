@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316b253fb2eec1a48b1a04b0ea9cec1f, type: 3}
+  m_Name: Eyes
+  m_EditorClassIdentifier: 
+  ambiguous:
+    girl: []
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 7744b2a87fe45bc449f1e4537ed10e32, type: 3}
+  nativeAmerica:
+    girl:
+    - {fileID: 21300000, guid: a6bb3577ee7dbc54da3ba105d3b0d194, type: 3}
+    - {fileID: 21300000, guid: 8a50474a7053715459441dce6ade0531, type: 3}
+    - {fileID: 21300000, guid: 97f7c9f0acbdaec458d1384bd0b3cc6e, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: e4371c2b8c154e94486a8aab052ec6cc, type: 3}
+    - {fileID: 21300000, guid: 0aa159cec74341d4ea1a0d79e3d34ead, type: 3}
+    - {fileID: 21300000, guid: 26678ad85f2ae14489bb096ba1527cd2, type: 3}
+  southAsia:
+    girl:
+    - {fileID: 21300000, guid: dc4538a3336a2de4585345afb7171d4c, type: 3}
+    - {fileID: 21300000, guid: 2e24ee4ba61a1c24292a891d0963b47f, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 32e27bfd37d30c74dbabb93b80b7b34a, type: 3}
+    - {fileID: 21300000, guid: 7744b2a87fe45bc449f1e4537ed10e32, type: 3}
+  eastAsia:
+    girl:
+    - {fileID: 21300000, guid: 65eee381f279a7f44a39b67ad6881db2, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 10cc862d5edc10c4e8f4bb8c2e1ae202, type: 3}
+    - {fileID: 21300000, guid: 10cc862d5edc10c4e8f4bb8c2e1ae202, type: 3}
+    - {fileID: 21300000, guid: 10cc862d5edc10c4e8f4bb8c2e1ae202, type: 3}
+  middleEast:
+    girl:
+    - {fileID: 21300000, guid: 8a50474a7053715459441dce6ade0531, type: 3}
+    - {fileID: 21300000, guid: 4607ccbbf8dc4a549925e8b7bfa8a812, type: 3}
+    - {fileID: 21300000, guid: 97f7c9f0acbdaec458d1384bd0b3cc6e, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 0aa159cec74341d4ea1a0d79e3d34ead, type: 3}
+    - {fileID: 21300000, guid: 26678ad85f2ae14489bb096ba1527cd2, type: 3}
+  northernEurope:
+    girl:
+    - {fileID: 21300000, guid: 65eee381f279a7f44a39b67ad6881db2, type: 3}
+    - {fileID: 21300000, guid: 0f560df883098474884dc727221c0d89, type: 3}
+    - {fileID: 21300000, guid: b0960e7796d56814e8cec597614e4a82, type: 3}
+    - {fileID: 21300000, guid: bdfdf78af81a8df438e51dd061527708, type: 3}
+    - {fileID: 21300000, guid: 88810544592a8214bbcc2ea65742c385, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 10cc862d5edc10c4e8f4bb8c2e1ae202, type: 3}
+    - {fileID: 21300000, guid: 038317231af57e649a5461a2a16d7b54, type: 3}
+    - {fileID: 21300000, guid: 84e5800a61e50e5488e2896be5d44b95, type: 3}
+    - {fileID: 21300000, guid: 836a898dadc9439479eb0803375cfaf3, type: 3}
+    - {fileID: 21300000, guid: 2e4870a27074ee447a8a51291d73d0cb, type: 3}
+  italy:
+    girl:
+    - {fileID: 21300000, guid: 0f560df883098474884dc727221c0d89, type: 3}
+    - {fileID: 21300000, guid: b0960e7796d56814e8cec597614e4a82, type: 3}
+    - {fileID: 21300000, guid: bdfdf78af81a8df438e51dd061527708, type: 3}
+    - {fileID: 21300000, guid: 88810544592a8214bbcc2ea65742c385, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 038317231af57e649a5461a2a16d7b54, type: 3}
+    - {fileID: 21300000, guid: 84e5800a61e50e5488e2896be5d44b95, type: 3}
+    - {fileID: 21300000, guid: 836a898dadc9439479eb0803375cfaf3, type: 3}
+    - {fileID: 21300000, guid: 2e4870a27074ee447a8a51291d73d0cb, type: 3}
+  france:
+    girl:
+    - {fileID: 21300000, guid: 0f560df883098474884dc727221c0d89, type: 3}
+    - {fileID: 21300000, guid: b0960e7796d56814e8cec597614e4a82, type: 3}
+    - {fileID: 21300000, guid: bdfdf78af81a8df438e51dd061527708, type: 3}
+    - {fileID: 21300000, guid: 88810544592a8214bbcc2ea65742c385, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 038317231af57e649a5461a2a16d7b54, type: 3}
+    - {fileID: 21300000, guid: 84e5800a61e50e5488e2896be5d44b95, type: 3}
+    - {fileID: 21300000, guid: 836a898dadc9439479eb0803375cfaf3, type: 3}
+    - {fileID: 21300000, guid: 2e4870a27074ee447a8a51291d73d0cb, type: 3}
+  africa:
+    girl:
+    - {fileID: 21300000, guid: bc7da2e1089a4834482baa55bdb0e2a0, type: 3}
+    - {fileID: 21300000, guid: dc4538a3336a2de4585345afb7171d4c, type: 3}
+    - {fileID: 21300000, guid: 490b8c69a08873f4c921836208b2a61d, type: 3}
+    - {fileID: 21300000, guid: 2e24ee4ba61a1c24292a891d0963b47f, type: 3}
+    - {fileID: 21300000, guid: dc4538a3336a2de4585345afb7171d4c, type: 3}
+    - {fileID: 21300000, guid: 2e24ee4ba61a1c24292a891d0963b47f, type: 3}
+    - {fileID: 21300000, guid: dc4538a3336a2de4585345afb7171d4c, type: 3}
+    - {fileID: 21300000, guid: 2e24ee4ba61a1c24292a891d0963b47f, type: 3}
+    - {fileID: 21300000, guid: dc4538a3336a2de4585345afb7171d4c, type: 3}
+    - {fileID: 21300000, guid: 2e24ee4ba61a1c24292a891d0963b47f, type: 3}
+    - {fileID: 21300000, guid: dc4538a3336a2de4585345afb7171d4c, type: 3}
+    - {fileID: 21300000, guid: 2e24ee4ba61a1c24292a891d0963b47f, type: 3}
+    - {fileID: 21300000, guid: dc4538a3336a2de4585345afb7171d4c, type: 3}
+    - {fileID: 21300000, guid: 2e24ee4ba61a1c24292a891d0963b47f, type: 3}
+    - {fileID: 21300000, guid: dc4538a3336a2de4585345afb7171d4c, type: 3}
+    - {fileID: 21300000, guid: 2e24ee4ba61a1c24292a891d0963b47f, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: dca90b68d11a92748b5fe1eaff93a586, type: 3}
+    - {fileID: 21300000, guid: 32e27bfd37d30c74dbabb93b80b7b34a, type: 3}
+    - {fileID: 21300000, guid: 7744b2a87fe45bc449f1e4537ed10e32, type: 3}
+  southAmerica:
+    girl:
+    - {fileID: 21300000, guid: 8a50474a7053715459441dce6ade0531, type: 3}
+    - {fileID: 21300000, guid: 97f7c9f0acbdaec458d1384bd0b3cc6e, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 0aa159cec74341d4ea1a0d79e3d34ead, type: 3}
+    - {fileID: 21300000, guid: 26678ad85f2ae14489bb096ba1527cd2, type: 3}

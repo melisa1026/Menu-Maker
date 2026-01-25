@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff0436c94cbe2f8498d47d0968eba229, type: 3}
+  m_Name: Pants
+  m_EditorClassIdentifier: 
+  girls:
+    coloured: []
+    uncoloured:
+    - {fileID: 21300000, guid: d396b023d5087dd4599a399951e6d295, type: 3}
+  boys:
+    coloured: []
+    uncoloured: []
+  unisex:
+    coloured: []
+    uncoloured:
+    - {fileID: 21300000, guid: c2802ab16fc91c644a24c85c9308e0e7, type: 3}
+    - {fileID: 21300000, guid: 5e5876e872f493b4a86d00f8cca71a5b, type: 3}
+    - {fileID: 21300000, guid: 051f3158c101a544da84b473278d2fbe, type: 3}
+    - {fileID: 21300000, guid: bb92cb66e89ef1941af803d2c21e898c, type: 3}
+  colourOptions:
+  - {r: 0.51888216, g: 0.7660377, b: 0.7478049, a: 1}
+  - {r: 0.37034526, g: 0.381132, b: 0.381132, a: 1}
+  - {r: 0.62908506, g: 0.66586685, b: 0.7735849, a: 1}
+  - {r: 0.5396226, g: 0.3767398, b: 0.31257385, a: 1}
+  - {r: 0.7283019, g: 0.70872015, b: 0.7021929, a: 1}
+  - {r: 0.8037735, g: 0.7512456, b: 0.6111712, a: 1}

@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316b253fb2eec1a48b1a04b0ea9cec1f, type: 3}
+  m_Name: Hair Back
+  m_EditorClassIdentifier: 
+  ambiguous:
+    girl:
+    - {fileID: 21300000, guid: a7ebca90267d68541ab8fa6b60a86f26, type: 3}
+    - {fileID: 21300000, guid: bd51e74a54b4e1c4ca7edb25b263f452, type: 3}
+    - {fileID: 21300000, guid: b78eca3a94044414ca21dc8b75862b90, type: 3}
+    - {fileID: 21300000, guid: a40232389eec4dc4d97dabef4d1deb0b, type: 3}
+    - {fileID: 21300000, guid: eb955b27e93bddd4fa083f7982b5bfcf, type: 3}
+    - {fileID: 21300000, guid: b755eaae36263dc4cbdafdea41ca8211, type: 3}
+    - {fileID: 21300000, guid: bdef66f568d6f7744a0aa20a2206849d, type: 3}
+    boy:
+    - {fileID: 21300000, guid: 62231063aaf67d545ad6fa595b1d6cd2, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: 7cd61867403bf4d478fd5ab7ddb2389b, type: 3}
+  nativeAmerica:
+    girl:
+    - {fileID: 21300000, guid: 17a23f9df8a27f84db9dbf6978ea59d9, type: 3}
+    - {fileID: 21300000, guid: de1efbab30449e740af765d8f76e17df, type: 3}
+    - {fileID: 21300000, guid: 6c8ac7efc1dcd1541b9609b651227be2, type: 3}
+    - {fileID: 21300000, guid: 2c81d6b6c4662ce4f98379bb5cd77c92, type: 3}
+    - {fileID: 21300000, guid: 51c8d917d5e055546900df65c4d4e12c, type: 3}
+    - {fileID: 21300000, guid: 216ba98331db5cd449412f0ab08d38f4, type: 3}
+    - {fileID: 21300000, guid: b95be2183a0011845b8725f132dd94f6, type: 3}
+    - {fileID: 21300000, guid: a7669853d726df645bc6466cccd0bf05, type: 3}
+    - {fileID: 21300000, guid: 8b6991db9a070164a8cad6d09f73f7d4, type: 3}
+    - {fileID: 21300000, guid: c4918f7696df9234ab98505699284134, type: 3}
+    - {fileID: 21300000, guid: 9f481608fd9698b409da70ccf790c268, type: 3}
+    boy:
+    - {fileID: 21300000, guid: c98816fc74eaa0d419e36a418af9db13, type: 3}
+    - {fileID: 21300000, guid: c1e0e19b66a10c541995990b80bd75ef, type: 3}
+    - {fileID: 21300000, guid: 8fb063225e4dc294d8712d031063a754, type: 3}
+    - {fileID: 21300000, guid: 5bf93907763683141bdf6cf299270140, type: 3}
+    - {fileID: 21300000, guid: 9d62ea0ee8b53b54abfddd96c59f31b7, type: 3}
+    - {fileID: 21300000, guid: bb48ac47ea985954c8186d3eea8c2bf8, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: 971b7236d897aaf4a8935668680ceeaa, type: 3}
+    - {fileID: 21300000, guid: 151daefa2abada54e9a0408489ce6d36, type: 3}
+  southAsia:
+    girl:
+    - {fileID: 21300000, guid: 971b7236d897aaf4a8935668680ceeaa, type: 3}
+    - {fileID: 21300000, guid: 17a23f9df8a27f84db9dbf6978ea59d9, type: 3}
+    - {fileID: 21300000, guid: 752ec19b64a041648b6afc04b0c9c368, type: 3}
+    - {fileID: 21300000, guid: 151daefa2abada54e9a0408489ce6d36, type: 3}
+    - {fileID: 21300000, guid: de1efbab30449e740af765d8f76e17df, type: 3}
+    - {fileID: 21300000, guid: 6c8ac7efc1dcd1541b9609b651227be2, type: 3}
+    - {fileID: 21300000, guid: 51c8d917d5e055546900df65c4d4e12c, type: 3}
+    - {fileID: 21300000, guid: 216ba98331db5cd449412f0ab08d38f4, type: 3}
+    - {fileID: 21300000, guid: b95be2183a0011845b8725f132dd94f6, type: 3}
+    - {fileID: 21300000, guid: a7669853d726df645bc6466cccd0bf05, type: 3}
+    - {fileID: 21300000, guid: 8b6991db9a070164a8cad6d09f73f7d4, type: 3}
+    - {fileID: 21300000, guid: 9f481608fd9698b409da70ccf790c268, type: 3}
+    boy:
+    - {fileID: 21300000, guid: c98816fc74eaa0d419e36a418af9db13, type: 3}
+    - {fileID: 21300000, guid: c1e0e19b66a10c541995990b80bd75ef, type: 3}
+    - {fileID: 21300000, guid: 9d62ea0ee8b53b54abfddd96c59f31b7, type: 3}
+    - {fileID: 21300000, guid: 9d62ea0ee8b53b54abfddd96c59f31b7, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: 2c81d6b6c4662ce4f98379bb5cd77c92, type: 3}
+  eastAsia:
+    girl:
+    - {fileID: 21300000, guid: 151daefa2abada54e9a0408489ce6d36, type: 3}
+    - {fileID: 21300000, guid: de1efbab30449e740af765d8f76e17df, type: 3}
+    - {fileID: 21300000, guid: 6c8ac7efc1dcd1541b9609b651227be2, type: 3}
+    - {fileID: 21300000, guid: b95be2183a0011845b8725f132dd94f6, type: 3}
+    - {fileID: 21300000, guid: 02e58d1bfea30d74cb6ed846792dd2e4, type: 3}
+    - {fileID: 21300000, guid: a7669853d726df645bc6466cccd0bf05, type: 3}
+    - {fileID: 21300000, guid: 177697ae08b55f046a7f1751b77f291e, type: 3}
+    - {fileID: 21300000, guid: 8b6991db9a070164a8cad6d09f73f7d4, type: 3}
+    - {fileID: 21300000, guid: c4918f7696df9234ab98505699284134, type: 3}
+    boy:
+    - {fileID: 21300000, guid: c98816fc74eaa0d419e36a418af9db13, type: 3}
+    - {fileID: 21300000, guid: 8fb063225e4dc294d8712d031063a754, type: 3}
+    - {fileID: 21300000, guid: 5bf93907763683141bdf6cf299270140, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: 2c81d6b6c4662ce4f98379bb5cd77c92, type: 3}
+  middleEast:
+    girl:
+    - {fileID: 21300000, guid: 1991ba342d9d05a4b8d97d7cf4dc417e, type: 3}
+    - {fileID: 21300000, guid: 971b7236d897aaf4a8935668680ceeaa, type: 3}
+    - {fileID: 21300000, guid: 17a23f9df8a27f84db9dbf6978ea59d9, type: 3}
+    - {fileID: 21300000, guid: 752ec19b64a041648b6afc04b0c9c368, type: 3}
+    - {fileID: 21300000, guid: 151daefa2abada54e9a0408489ce6d36, type: 3}
+    - {fileID: 21300000, guid: de1efbab30449e740af765d8f76e17df, type: 3}
+    - {fileID: 21300000, guid: 6c8ac7efc1dcd1541b9609b651227be2, type: 3}
+    - {fileID: 21300000, guid: 51c8d917d5e055546900df65c4d4e12c, type: 3}
+    - {fileID: 21300000, guid: 216ba98331db5cd449412f0ab08d38f4, type: 3}
+    - {fileID: 21300000, guid: b95be2183a0011845b8725f132dd94f6, type: 3}
+    - {fileID: 21300000, guid: a7669853d726df645bc6466cccd0bf05, type: 3}
+    - {fileID: 21300000, guid: 8b6991db9a070164a8cad6d09f73f7d4, type: 3}
+    - {fileID: 21300000, guid: c4918f7696df9234ab98505699284134, type: 3}
+    - {fileID: 21300000, guid: 9f481608fd9698b409da70ccf790c268, type: 3}
+    boy:
+    - {fileID: 21300000, guid: 30af8b0b75182f649b623a56adae6443, type: 3}
+    - {fileID: 21300000, guid: c98816fc74eaa0d419e36a418af9db13, type: 3}
+    - {fileID: 21300000, guid: c1e0e19b66a10c541995990b80bd75ef, type: 3}
+    - {fileID: 21300000, guid: 8fb063225e4dc294d8712d031063a754, type: 3}
+    - {fileID: 21300000, guid: 5bf93907763683141bdf6cf299270140, type: 3}
+    - {fileID: 21300000, guid: 9d62ea0ee8b53b54abfddd96c59f31b7, type: 3}
+    - {fileID: 21300000, guid: 9d62ea0ee8b53b54abfddd96c59f31b7, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: 7b0cada952e8859419fa70d73327174a, type: 3}
+    - {fileID: 21300000, guid: 2c81d6b6c4662ce4f98379bb5cd77c92, type: 3}
+  northernEurope:
+    girl:
+    - {fileID: 21300000, guid: 1991ba342d9d05a4b8d97d7cf4dc417e, type: 3}
+    - {fileID: 21300000, guid: 80be2814989c7b54b9d606c8674dbc21, type: 3}
+    - {fileID: 21300000, guid: 752ec19b64a041648b6afc04b0c9c368, type: 3}
+    - {fileID: 21300000, guid: 151daefa2abada54e9a0408489ce6d36, type: 3}
+    - {fileID: 21300000, guid: de1efbab30449e740af765d8f76e17df, type: 3}
+    - {fileID: 21300000, guid: 6c8ac7efc1dcd1541b9609b651227be2, type: 3}
+    - {fileID: 21300000, guid: b95be2183a0011845b8725f132dd94f6, type: 3}
+    - {fileID: 21300000, guid: 02e58d1bfea30d74cb6ed846792dd2e4, type: 3}
+    - {fileID: 21300000, guid: 177697ae08b55f046a7f1751b77f291e, type: 3}
+    - {fileID: 21300000, guid: 8b6991db9a070164a8cad6d09f73f7d4, type: 3}
+    - {fileID: 21300000, guid: c4918f7696df9234ab98505699284134, type: 3}
+    boy:
+    - {fileID: 21300000, guid: c98816fc74eaa0d419e36a418af9db13, type: 3}
+    - {fileID: 21300000, guid: 8fb063225e4dc294d8712d031063a754, type: 3}
+    - {fileID: 21300000, guid: 5bf93907763683141bdf6cf299270140, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: 2c81d6b6c4662ce4f98379bb5cd77c92, type: 3}
+  italy:
+    girl:
+    - {fileID: 21300000, guid: 1991ba342d9d05a4b8d97d7cf4dc417e, type: 3}
+    - {fileID: 21300000, guid: 971b7236d897aaf4a8935668680ceeaa, type: 3}
+    - {fileID: 21300000, guid: 17a23f9df8a27f84db9dbf6978ea59d9, type: 3}
+    - {fileID: 21300000, guid: 752ec19b64a041648b6afc04b0c9c368, type: 3}
+    - {fileID: 21300000, guid: 151daefa2abada54e9a0408489ce6d36, type: 3}
+    - {fileID: 21300000, guid: de1efbab30449e740af765d8f76e17df, type: 3}
+    - {fileID: 21300000, guid: 6c8ac7efc1dcd1541b9609b651227be2, type: 3}
+    - {fileID: 21300000, guid: 51c8d917d5e055546900df65c4d4e12c, type: 3}
+    - {fileID: 21300000, guid: 216ba98331db5cd449412f0ab08d38f4, type: 3}
+    - {fileID: 21300000, guid: b95be2183a0011845b8725f132dd94f6, type: 3}
+    - {fileID: 21300000, guid: 02e58d1bfea30d74cb6ed846792dd2e4, type: 3}
+    - {fileID: 21300000, guid: a7669853d726df645bc6466cccd0bf05, type: 3}
+    - {fileID: 21300000, guid: 8e84efc9c81f80c45ae41d182a22eaeb, type: 3}
+    - {fileID: 21300000, guid: 8b6991db9a070164a8cad6d09f73f7d4, type: 3}
+    - {fileID: 21300000, guid: c4918f7696df9234ab98505699284134, type: 3}
+    - {fileID: 21300000, guid: 9f481608fd9698b409da70ccf790c268, type: 3}
+    boy:
+    - {fileID: 21300000, guid: c98816fc74eaa0d419e36a418af9db13, type: 3}
+    - {fileID: 21300000, guid: c1e0e19b66a10c541995990b80bd75ef, type: 3}
+    - {fileID: 21300000, guid: 8fb063225e4dc294d8712d031063a754, type: 3}
+    - {fileID: 21300000, guid: 5bf93907763683141bdf6cf299270140, type: 3}
+    - {fileID: 21300000, guid: 9d62ea0ee8b53b54abfddd96c59f31b7, type: 3}
+    - {fileID: 21300000, guid: bb48ac47ea985954c8186d3eea8c2bf8, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: 7b0cada952e8859419fa70d73327174a, type: 3}
+    - {fileID: 21300000, guid: 2c81d6b6c4662ce4f98379bb5cd77c92, type: 3}
+  france:
+    girl:
+    - {fileID: 21300000, guid: 1991ba342d9d05a4b8d97d7cf4dc417e, type: 3}
+    - {fileID: 21300000, guid: 971b7236d897aaf4a8935668680ceeaa, type: 3}
+    - {fileID: 21300000, guid: 17a23f9df8a27f84db9dbf6978ea59d9, type: 3}
+    - {fileID: 21300000, guid: 752ec19b64a041648b6afc04b0c9c368, type: 3}
+    - {fileID: 21300000, guid: 151daefa2abada54e9a0408489ce6d36, type: 3}
+    - {fileID: 21300000, guid: de1efbab30449e740af765d8f76e17df, type: 3}
+    - {fileID: 21300000, guid: 6c8ac7efc1dcd1541b9609b651227be2, type: 3}
+    - {fileID: 21300000, guid: 51c8d917d5e055546900df65c4d4e12c, type: 3}
+    - {fileID: 21300000, guid: b95be2183a0011845b8725f132dd94f6, type: 3}
+    - {fileID: 21300000, guid: 02e58d1bfea30d74cb6ed846792dd2e4, type: 3}
+    - {fileID: 21300000, guid: a7669853d726df645bc6466cccd0bf05, type: 3}
+    - {fileID: 21300000, guid: 177697ae08b55f046a7f1751b77f291e, type: 3}
+    - {fileID: 21300000, guid: 8e84efc9c81f80c45ae41d182a22eaeb, type: 3}
+    - {fileID: 21300000, guid: 8b6991db9a070164a8cad6d09f73f7d4, type: 3}
+    - {fileID: 21300000, guid: c4918f7696df9234ab98505699284134, type: 3}
+    - {fileID: 21300000, guid: 9f481608fd9698b409da70ccf790c268, type: 3}
+    boy:
+    - {fileID: 21300000, guid: c98816fc74eaa0d419e36a418af9db13, type: 3}
+    - {fileID: 21300000, guid: c1e0e19b66a10c541995990b80bd75ef, type: 3}
+    - {fileID: 21300000, guid: 8fb063225e4dc294d8712d031063a754, type: 3}
+    - {fileID: 21300000, guid: 5bf93907763683141bdf6cf299270140, type: 3}
+    - {fileID: 21300000, guid: 9d62ea0ee8b53b54abfddd96c59f31b7, type: 3}
+    - {fileID: 21300000, guid: bb48ac47ea985954c8186d3eea8c2bf8, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: 2c81d6b6c4662ce4f98379bb5cd77c92, type: 3}
+  africa:
+    girl:
+    - {fileID: 21300000, guid: 1991ba342d9d05a4b8d97d7cf4dc417e, type: 3}
+    - {fileID: 21300000, guid: 752ec19b64a041648b6afc04b0c9c368, type: 3}
+    - {fileID: 21300000, guid: 17a23f9df8a27f84db9dbf6978ea59d9, type: 3}
+    - {fileID: 21300000, guid: 5f0f784dff91a5546a78cd46426e1922, type: 3}
+    - {fileID: 21300000, guid: 51c8d917d5e055546900df65c4d4e12c, type: 3}
+    - {fileID: 21300000, guid: 216ba98331db5cd449412f0ab08d38f4, type: 3}
+    - {fileID: 21300000, guid: 9f481608fd9698b409da70ccf790c268, type: 3}
+    boy:
+    - {fileID: 21300000, guid: 67da419027bb0dc41bfd6c77d8ac5021, type: 3}
+    - {fileID: 21300000, guid: c1e0e19b66a10c541995990b80bd75ef, type: 3}
+    - {fileID: 21300000, guid: 9d62ea0ee8b53b54abfddd96c59f31b7, type: 3}
+    - {fileID: 21300000, guid: bb48ac47ea985954c8186d3eea8c2bf8, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: 7b0cada952e8859419fa70d73327174a, type: 3}
+    - {fileID: 21300000, guid: bd4bfe7f849b7a847aac5c7f300a989f, type: 3}
+  southAmerica:
+    girl:
+    - {fileID: 21300000, guid: 1991ba342d9d05a4b8d97d7cf4dc417e, type: 3}
+    - {fileID: 21300000, guid: 971b7236d897aaf4a8935668680ceeaa, type: 3}
+    - {fileID: 21300000, guid: 80be2814989c7b54b9d606c8674dbc21, type: 3}
+    - {fileID: 21300000, guid: 17a23f9df8a27f84db9dbf6978ea59d9, type: 3}
+    - {fileID: 21300000, guid: 752ec19b64a041648b6afc04b0c9c368, type: 3}
+    - {fileID: 21300000, guid: 151daefa2abada54e9a0408489ce6d36, type: 3}
+    - {fileID: 21300000, guid: de1efbab30449e740af765d8f76e17df, type: 3}
+    - {fileID: 21300000, guid: 6c8ac7efc1dcd1541b9609b651227be2, type: 3}
+    - {fileID: 21300000, guid: 51c8d917d5e055546900df65c4d4e12c, type: 3}
+    - {fileID: 21300000, guid: 216ba98331db5cd449412f0ab08d38f4, type: 3}
+    - {fileID: 21300000, guid: b95be2183a0011845b8725f132dd94f6, type: 3}
+    - {fileID: 21300000, guid: a7669853d726df645bc6466cccd0bf05, type: 3}
+    - {fileID: 21300000, guid: 8b6991db9a070164a8cad6d09f73f7d4, type: 3}
+    - {fileID: 21300000, guid: c4918f7696df9234ab98505699284134, type: 3}
+    - {fileID: 21300000, guid: 9f481608fd9698b409da70ccf790c268, type: 3}
+    boy:
+    - {fileID: 21300000, guid: c98816fc74eaa0d419e36a418af9db13, type: 3}
+    - {fileID: 21300000, guid: c1e0e19b66a10c541995990b80bd75ef, type: 3}
+    - {fileID: 21300000, guid: 8fb063225e4dc294d8712d031063a754, type: 3}
+    - {fileID: 21300000, guid: 5bf93907763683141bdf6cf299270140, type: 3}
+    - {fileID: 21300000, guid: 9d62ea0ee8b53b54abfddd96c59f31b7, type: 3}
+    - {fileID: 21300000, guid: bb48ac47ea985954c8186d3eea8c2bf8, type: 3}
+    unisex: []

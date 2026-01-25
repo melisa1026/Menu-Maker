@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316b253fb2eec1a48b1a04b0ea9cec1f, type: 3}
+  m_Name: Mouth
+  m_EditorClassIdentifier: 
+  ambiguous:
+    girl: []
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 2c0a658c2ebfd4941930b1e837ec1341, type: 3}
+  nativeAmerica:
+    girl:
+    - {fileID: 21300000, guid: b5c950699b650924eb4516709a6cb779, type: 3}
+    - {fileID: 21300000, guid: d01c077811fc3424c8bd67d73177ba26, type: 3}
+    - {fileID: 21300000, guid: 40c334cde6b2ed34186237b8d89805e1, type: 3}
+    boy:
+    - {fileID: 21300000, guid: 80b584229b600654db7ef52fe1dcf0e8, type: 3}
+    - {fileID: 21300000, guid: 56b62b7d249ca654b8308bb8724e650d, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: f581d8bf26cacc64c8d7e536262af9c8, type: 3}
+    - {fileID: 21300000, guid: ac4b3c004781565468cd1b200df01204, type: 3}
+    - {fileID: 21300000, guid: d702e5e2d298e344fb80768d777f817d, type: 3}
+  southAsia:
+    girl:
+    - {fileID: 21300000, guid: e8280696d25295345aa37d2276ea73ad, type: 3}
+    - {fileID: 21300000, guid: 26f2cffbc51f24449ab99185108e2106, type: 3}
+    - {fileID: 21300000, guid: 893eced09f250de429652ff6076e8bae, type: 3}
+    boy:
+    - {fileID: 21300000, guid: 01c0b33e2e2d0a241b204c9dbec0adc4, type: 3}
+    - {fileID: 21300000, guid: f96a0cadf10483348b716e4288e001be, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: c5b9bc858b0e34b498e856918b55ed94, type: 3}
+    - {fileID: 21300000, guid: 2c0a658c2ebfd4941930b1e837ec1341, type: 3}
+    - {fileID: 21300000, guid: 282bdbed17c03674eb9f6e7c9f1c3075, type: 3}
+  eastAsia:
+    girl:
+    - {fileID: 21300000, guid: 4d30d5f13d349394587a7f68f42692b9, type: 3}
+    - {fileID: 21300000, guid: ef52819b9431f4f4284a7ad9c1fc7b56, type: 3}
+    - {fileID: 21300000, guid: 550461ad72fc34e49904a71e67e6b5a3, type: 3}
+    - {fileID: 21300000, guid: 3b276a2adf11c224cb15d9c82b1e565a, type: 3}
+    boy:
+    - {fileID: 21300000, guid: cc14dfc75677e1440a9d4d4b52fca0d9, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: 919d04de4cb440347b08cbce07e052d7, type: 3}
+    - {fileID: 21300000, guid: 46ee0c84d466d914ea06d614d001dd4a, type: 3}
+    - {fileID: 21300000, guid: bc21e3bfba38a6a48b787fc0168dad0d, type: 3}
+  middleEast:
+    girl:
+    - {fileID: 21300000, guid: b5c950699b650924eb4516709a6cb779, type: 3}
+    - {fileID: 21300000, guid: d01c077811fc3424c8bd67d73177ba26, type: 3}
+    - {fileID: 21300000, guid: 40c334cde6b2ed34186237b8d89805e1, type: 3}
+    boy:
+    - {fileID: 21300000, guid: 80b584229b600654db7ef52fe1dcf0e8, type: 3}
+    - {fileID: 21300000, guid: 56b62b7d249ca654b8308bb8724e650d, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: ac4b3c004781565468cd1b200df01204, type: 3}
+    - {fileID: 21300000, guid: f581d8bf26cacc64c8d7e536262af9c8, type: 3}
+    - {fileID: 21300000, guid: d702e5e2d298e344fb80768d777f817d, type: 3}
+  northernEurope:
+    girl:
+    - {fileID: 21300000, guid: 4d30d5f13d349394587a7f68f42692b9, type: 3}
+    - {fileID: 21300000, guid: ef52819b9431f4f4284a7ad9c1fc7b56, type: 3}
+    - {fileID: 21300000, guid: 3b276a2adf11c224cb15d9c82b1e565a, type: 3}
+    - {fileID: 21300000, guid: 550461ad72fc34e49904a71e67e6b5a3, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 919d04de4cb440347b08cbce07e052d7, type: 3}
+    - {fileID: 21300000, guid: 46ee0c84d466d914ea06d614d001dd4a, type: 3}
+    - {fileID: 21300000, guid: cc14dfc75677e1440a9d4d4b52fca0d9, type: 3}
+    - {fileID: 21300000, guid: bc21e3bfba38a6a48b787fc0168dad0d, type: 3}
+  italy:
+    girl:
+    - {fileID: 21300000, guid: 550461ad72fc34e49904a71e67e6b5a3, type: 3}
+    - {fileID: 21300000, guid: 3b276a2adf11c224cb15d9c82b1e565a, type: 3}
+    - {fileID: 21300000, guid: 4d30d5f13d349394587a7f68f42692b9, type: 3}
+    - {fileID: 21300000, guid: ef52819b9431f4f4284a7ad9c1fc7b56, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: cc14dfc75677e1440a9d4d4b52fca0d9, type: 3}
+    - {fileID: 21300000, guid: 919d04de4cb440347b08cbce07e052d7, type: 3}
+    - {fileID: 21300000, guid: 46ee0c84d466d914ea06d614d001dd4a, type: 3}
+    - {fileID: 21300000, guid: bc21e3bfba38a6a48b787fc0168dad0d, type: 3}
+  france:
+    girl:
+    - {fileID: 21300000, guid: 550461ad72fc34e49904a71e67e6b5a3, type: 3}
+    - {fileID: 21300000, guid: 3b276a2adf11c224cb15d9c82b1e565a, type: 3}
+    - {fileID: 21300000, guid: 4d30d5f13d349394587a7f68f42692b9, type: 3}
+    - {fileID: 21300000, guid: 919d04de4cb440347b08cbce07e052d7, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: 919d04de4cb440347b08cbce07e052d7, type: 3}
+    - {fileID: 21300000, guid: 46ee0c84d466d914ea06d614d001dd4a, type: 3}
+    - {fileID: 21300000, guid: cc14dfc75677e1440a9d4d4b52fca0d9, type: 3}
+    - {fileID: 21300000, guid: bc21e3bfba38a6a48b787fc0168dad0d, type: 3}
+  africa:
+    girl:
+    - {fileID: 21300000, guid: 26f2cffbc51f24449ab99185108e2106, type: 3}
+    boy: []
+    unisex:
+    - {fileID: 21300000, guid: c5b9bc858b0e34b498e856918b55ed94, type: 3}
+    - {fileID: 21300000, guid: e8280696d25295345aa37d2276ea73ad, type: 3}
+    - {fileID: 21300000, guid: 2c0a658c2ebfd4941930b1e837ec1341, type: 3}
+    - {fileID: 21300000, guid: 01c0b33e2e2d0a241b204c9dbec0adc4, type: 3}
+    - {fileID: 21300000, guid: 282bdbed17c03674eb9f6e7c9f1c3075, type: 3}
+    - {fileID: 21300000, guid: 893eced09f250de429652ff6076e8bae, type: 3}
+  southAmerica:
+    girl:
+    - {fileID: 21300000, guid: b5c950699b650924eb4516709a6cb779, type: 3}
+    - {fileID: 21300000, guid: d01c077811fc3424c8bd67d73177ba26, type: 3}
+    - {fileID: 21300000, guid: 40c334cde6b2ed34186237b8d89805e1, type: 3}
+    - {fileID: 21300000, guid: ac4b3c004781565468cd1b200df01204, type: 3}
+    boy:
+    - {fileID: 21300000, guid: 56b62b7d249ca654b8308bb8724e650d, type: 3}
+    - {fileID: 21300000, guid: 80b584229b600654db7ef52fe1dcf0e8, type: 3}
+    unisex:
+    - {fileID: 21300000, guid: f581d8bf26cacc64c8d7e536262af9c8, type: 3}
+    - {fileID: 21300000, guid: d702e5e2d298e344fb80768d777f817d, type: 3}
