@@ -35,7 +35,7 @@ public class CharacterCreator : MonoBehaviour
 
     public GameObject[] easyLoves, mediumLoves, hardLoves, easyIntolerances, hardIntolerances;
 
-    FoodDescription foodDescription;
+    public FoodDescription foodDescription;
 
     public void CreateCharacter() {
 
@@ -53,7 +53,8 @@ public class CharacterCreator : MonoBehaviour
         // 3. Initialize the food description
         foodDescription = ScriptableObject.CreateInstance<FoodDescription>();
         foodDescription.initialize();
-        setFoodRestrictions(1);
+        setFoodRestrictions(LevelStarter.difficulty);
+        setLikes(LevelStarter.difficulty);
     }
 
     public void CreateCharacter(bool isGirl, Region region) {
@@ -130,11 +131,6 @@ public class CharacterCreator : MonoBehaviour
 
     void setBodyPart(Image bodyPartSprite, BodyOptions bodyOptionsScript, bool isGirl, Region region) {
         bodyPartSprite.sprite = bodyOptionsScript.chooseOption(isGirl, region);
-    }
-
-    // difficulties: 0, 1, 2
-    void setLoves(int difficulty) {
-
     }
 
     // difficulties: 0, 1, 2
@@ -215,6 +211,128 @@ public class CharacterCreator : MonoBehaviour
                     foodDescription.addIntolerance(FoodIcon.foodIcon.Vegan);
             }
 
+        }
+
+    }
+
+    void setLikes(int difficulty) {
+
+        // higher difficulty = more Loves
+
+        int num = 0;
+
+        if(difficulty == 0) {
+
+            /* 
+                difficulty 0:
+                - 3 loves 
+                - 20% sweet
+                - 10% saucy
+                - 10% cheesy
+                - 10% meaty
+                - 10% garlicky
+                - 5% crunchy
+                - 5% citrusy
+                - 5% chewy
+                - 5% creamy
+                - 5% fruity
+                - 5% salty
+                - 5% spicy
+        */
+            for (int i = 0; i < 3; i++) {
+                num = UnityEngine.Random.Range(0, 100);
+                if(num <= 20)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Sweet);
+                else if(num <= 30) 
+                    foodDescription.addTaste(FoodIcon.foodIcon.Saucy);
+                else if(num <= 40)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Cheesy);
+                else if(num <= 50)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Meaty);
+                else if(num <= 60)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Garlicky);
+                else if(num <= 70)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Crunchy);
+                else if(num <= 75)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Citrusy);
+                else if(num <= 80)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Chewy);
+                else if(num <= 85)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Creamy);
+                else if(num <= 90)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Fruity);
+                else if(num <= 95)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Salty);
+                else
+                    foodDescription.addTaste(FoodIcon.foodIcon.Spicy);
+            }
+
+        }
+        else if (difficulty == 1) {
+            /* 
+                difficulty 2:
+                - 2-3 loves 
+                - 10% sweet
+                - 10% saucy
+                - 10% cheesy
+                - 5% meaty
+                - 5% garlicky
+                - 5% crunchy
+                - 5% citrusy
+                - 5% chewy
+                - 5% creamy
+                - 10% fruity
+                - 5% salty
+                - 5% spicy
+                - 20% none
+            */
+
+            for(int i = 0; i < 3; i++) {
+                num = UnityEngine.Random.Range(0, 100);
+                if(num <= 10)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Sweet);
+                else if(num <= 20) 
+                    foodDescription.addTaste(FoodIcon.foodIcon.Saucy);
+                else if(num <= 30)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Cheesy);
+                else if(num <= 35)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Meaty);
+                else if(num <= 40)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Garlicky);
+                else if(num <= 45)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Crunchy);
+                else if(num <= 50)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Citrusy);
+                else if(num <= 55)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Chewy);
+                else if(num <= 60)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Creamy);
+                else if(num <= 70)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Fruity);
+                else if(num <= 75)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Salty);
+                else if(num <= 80)
+                    foodDescription.addTaste(FoodIcon.foodIcon.Spicy);
+            }
+        }
+        else if (difficulty == 2) {
+            /* 
+                difficulty 2:
+                - 1-3 loves 
+                - equal everything else
+                - 30% none
+            */
+            
+            for(int i = 0; i < 3; i++) {
+
+                num = UnityEngine.Random.Range(0, 100);
+
+                if(num <= 70) {
+                    num = UnityEngine.Random.Range(0, 13);
+                    if(num != 10) // no sour recipes yet
+                        foodDescription.addTaste((FoodIcon.foodIcon) num);
+                }
+            }
         }
 
     }

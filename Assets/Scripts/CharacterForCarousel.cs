@@ -27,38 +27,4 @@ public class CharacterForCarousel : MonoBehaviour
         transform.DOScale(initialScale, 0.2f);
     }
 
-
-
-    /*
-    public CharacterCreator characterCreatorScript;
-
-    Vector3 initialScale;
-
-    void Awake() {
-        initialScale = transform.localScale;
-    }
-
-    public void select()
-    {
-        foreach(GameObject i in masks) 
-            i.SetActive(false);
-
-        GetComponent<RectTransform>().SetAsLastSibling();
-
-        pulse();
-
-    }
-
-    public void unselect() {
-        foreach(GameObject i in masks) 
-            i.SetActive(true);
-    }
-
-    void pulse() {
-        float duration = 0.4f;
-        transform.localScale = initialScale*0.98f;
-        transform.DOScale(initialScale, duration);
-    }
-    */
-
 }

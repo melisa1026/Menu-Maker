@@ -8,6 +8,9 @@ public class GrowOnEnable : MonoBehaviour
 
     void OnEnable()
     {
+        if(GetComponent<Transform>() == null)
+            return;
+            
         Vector3 scale = GetComponent<Transform>().localScale;
 
         GetComponent<Transform>().localScale = scale * downscale;

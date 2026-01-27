@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Character Creator Workspace.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Home.unity
+    guid: c826b7535411fd547be62798024cf3be
+  - enabled: 1
+    path: Assets/Scenes/Level Select.unity
+    guid: 54b609f6982d3644da0cf2a5d0920f8d
+  - enabled: 1
+    path: Assets/Scenes/Library.unity
+    guid: 89ababb4cdf303049b2c2e481883638e
+  - enabled: 1
+    path: Assets/Scenes/Judging.unity
+    guid: b7c1a1b9929d7b6478f60aed43d338ff
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

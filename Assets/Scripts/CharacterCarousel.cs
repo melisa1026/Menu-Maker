@@ -9,17 +9,16 @@ public class CharacterCarousel : MonoBehaviour
     public GameObject carouselOutlines, carouselSelections;
     public GameObject characterPrefab;
     public TMP_Text characterName;
-    public GameObject intoleranceContainer;
+    public GameObject intoleranceContainer, likesContainer;
+
+    public GameObject[] intolerancePrefabs;
+    public GameObject[] tastePrefabs;
 
     int currentSelection = 0;
     GameObject[] characters = null;
 
 
-    void Start() {
-        InitializeCharacters(5);
-    }
-
-    void InitializeCharacters(int numCharacters)
+    public void InitializeCharacters(int numCharacters)
     {
         characters = new GameObject[numCharacters];
 
@@ -88,99 +87,49 @@ public class CharacterCarousel : MonoBehaviour
         // set the character name
         characterName.text = cc.getName();
 
-        // put the character intolerances on the screen
-        setCharacterIntolerances();
+        // put the character intolerances and likes on the screen
+        setCharacterIntolerances(selectedCharacter);
+        setCharacterLikes(selectedCharacter);
     }
 
-    void setCharacterIntolerances() {
+    void setCharacterIntolerances(GameObject selectedCharacter) {
 
         // 1. Clear the current intolerances
          foreach(Transform child in intoleranceContainer.transform)
         {
             Destroy(child.gameObject);
         }
+
+        // 2. Get the new character's intolerances
+        FoodDescription foodDescription = selectedCharacter.GetComponent<CharacterCreator>().foodDescription;
+        bool[] intolerances = foodDescription.intolerances;
+
+        // 3. Put the intolrances on screen
+        for(int i = 0; i < intolerances.Length; i++) {
+            if(intolerances[i]) {
+                Instantiate(intolerancePrefabs[i], intoleranceContainer.transform);
+            }
+        }
     }
 
+    void setCharacterLikes(GameObject selectedCharacter) {
 
-
-    /* 
-    
-    public GameObject characterCarouselPrefab;
-    public TMP_Text characterName;
-
-    GameObject selectedCharacter = null;
-    bool characterInitialized = false;
-
-    void Start() {
-        Initialize(5);
-    }
-
-    void Update() {
-
-       // only initially update the character info card when the selected character is loaded
-        if(!characterInitialized && selectedCharacter != null && 
-            selectedCharacter.transform.GetChild(0).gameObject.GetComponent<CharacterCreator>().characterInitialized) 
+        // 1. Clear the current likes
+         foreach(Transform child in likesContainer.transform)
         {
-            updateCharacterInfoCard(selectedCharacter);
-            characterInitialized = true;
-        }
-    }
-
-    void Initialize(int numCharacters)
-    {
-        GameObject newCharacter = null;
-        for(int i = 0; i < numCharacters; i++) {
-
-            newCharacter = Instantiate(characterCarouselPrefab, this.gameObject.transform);
-            newCharacter.GetComponent<CharacterForCarousel>().characterCreatorScript.CreateCharacter;
-            
-            newCharacter.GetComponent<CharacterForCarousel>().unselect();
-        }
-        
-        // default selection
-        selectedCharacter = newCharacter;
-        newCharacter.GetComponent<CharacterForCarousel>().select();
-    }
-
-    public void scroll(bool isRight) {
-
-        // get the list of children
-        List<GameObject> allCharacters = new List<GameObject>();
-        foreach (Transform child in transform)
-        {
-            allCharacters.Add(child.gameObject);
+            Destroy(child.gameObject);
         }
 
+        // 2. Get the new character's likes
+        FoodDescription foodDescription = selectedCharacter.GetComponent<CharacterCreator>().foodDescription;
+        bool[] likes = foodDescription.tastes;
 
-        // unselect the currently selected character
-        allCharacters[transform.childCount - 1].GetComponent<CharacterForCarousel>().unselect();
-
-
-        // get the next selection (from the left or right)
-        GameObject newSelection;
-        if(isRight) {
-            allCharacters[transform.childCount - 1].GetComponent<RectTransform>().SetAsFirstSibling();
-            newSelection = allCharacters[transform.childCount - 2];
+        // 3. Put the likes on screen
+        for(int i = 0; i < likes.Length; i++) {
+            if(likes[i]) {
+                Instantiate(tastePrefabs[i], likesContainer.transform);
+            }
         }
-        else 
-            newSelection = allCharacters[0];
-
-        newSelection.GetComponent<CharacterForCarousel>().select();
-
-
-        updateCharacterInfoCard(newSelection);
     }
+} 
 
-    
-    void updateCharacterInfoCard(GameObject selectedCharacter) {
-
-        // get the CharacterCeator script
-        CharacterCreator cc = selectedCharacter.transform.GetChild(0).gameObject.GetComponent<CharacterCreator>();
-
-        // set the character name
-        characterName.text = cc.getName();
-    }
-
-    */
-
-}
