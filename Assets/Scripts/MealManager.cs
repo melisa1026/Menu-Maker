@@ -79,6 +79,8 @@ public class MealManager : MonoBehaviour
         else {
             numDessertsChosen++;
         }
+
+        checkIfAllAreChosen();
     }
 
     public int getNumExpected(FoodType foodType) {
@@ -116,6 +118,18 @@ public class MealManager : MonoBehaviour
         }
         else {
             numDessertsChosen--;
+        }
+
+        menuInfoCard.hideFinishButton();
+    }
+
+    void checkIfAllAreChosen() {
+
+        if((getNumChosen(FoodType.appetizer) == getNumExpected(FoodType.appetizer)) &&
+            (getNumChosen(FoodType.meal) == getNumExpected(FoodType.meal)) &&
+            (getNumChosen(FoodType.dessert) == getNumExpected(FoodType.dessert))) 
+        {
+            menuInfoCard.showFinishButton();
         }
     }
 }

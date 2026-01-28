@@ -29,7 +29,7 @@ public class CharacterCreator : MonoBehaviour
     }
 
     [SerializeField]
-    Character character;
+    public Character character;
 
     public string name;
 
@@ -339,5 +339,31 @@ public class CharacterCreator : MonoBehaviour
 
     public string getName() {
         return name;
+    }
+
+    public void copyCharacter(CharacterCreator other) {
+        
+        // copy sprites
+        character.shirt.sprite = other.character.shirt.sprite;
+        character.pants.sprite = other.character.pants.sprite;
+        character.shoes.sprite = other.character.shoes.sprite;
+        character.eyebrows.sprite = other.character.eyebrows.sprite;
+        character.body.sprite = other.character.body.sprite;
+        character.eyes.sprite = other.character.eyes.sprite;
+        character.nose.sprite = other.character.nose.sprite;
+        character.mouth.sprite = other.character.mouth.sprite;
+        character.hairFront.sprite = other.character.hairFront.sprite;
+        character.hairBack.sprite = other.character.hairBack.sprite;
+
+        // copy colours
+        Color hairColour = other.character.hairFront.color;
+        character.hairFront.color = hairColour;
+        character.hairBack.color = hairColour;
+        character.eyebrows.color = hairColour;
+
+        character.body.color = other.character.body.color;
+
+        character.shirt.color = other.character.shirt.color;
+        character.pants.color = other.character.pants.color;
     }
 }

@@ -8,6 +8,7 @@ public class MenuInfoCard : MonoBehaviour
     public GameObject checklistContainer;
     public GameObject checklistItemPrefab;
     public MealManager MealManagerScript;
+    public GameObject finishButton;
 
     MealManager.HostEvent hostEvent;
 
@@ -142,5 +143,12 @@ public class MenuInfoCard : MonoBehaviour
         }
     }
 
+    public void showFinishButton() {
+        finishButton.SetActive(true);
+    }
+
+    public void hideFinishButton() {
+        finishButton.SetActive(false);
+    }
 
 }
