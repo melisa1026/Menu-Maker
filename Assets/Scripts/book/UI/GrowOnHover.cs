@@ -44,5 +44,4 @@ public class GrowOnHover : MonoBehaviour
         GetComponent<Transform>().DOScale(initialScale, 0.3f);
     }
 
-
 }

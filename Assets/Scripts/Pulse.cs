@@ -10,6 +10,7 @@ public class Pulse : MonoBehaviour
     {
         transform.DOScale(transform.localScale * scaleAmount, duration)
             .SetEase(Ease.InOutSine)
-            .SetLoops(-1, LoopType.Yoyo);
+            .SetLoops(-1, LoopType.Yoyo)
+            .SetLink(gameObject, LinkBehaviour.KillOnDestroy);
     }
 }

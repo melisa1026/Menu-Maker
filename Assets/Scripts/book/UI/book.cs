@@ -170,6 +170,10 @@ public class book : MonoBehaviour
             return;
         }
 
+        // open book
+        if(pageNumber > 0)
+            openBook();
+
         // close current pages
         currentLeftPage.Value.SetActive(false);
         if(currentRightPage != null)

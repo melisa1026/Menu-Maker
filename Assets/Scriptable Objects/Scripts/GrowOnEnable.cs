@@ -15,6 +15,11 @@ public class GrowOnEnable : MonoBehaviour
 
         GetComponent<Transform>().localScale = scale * downscale;
 
-        GetComponent<Transform>().DOScale(scale, 0.3f);
+        GetComponent<Transform>().DOScale(scale, 0.3f).SetLink(gameObject, LinkBehaviour.KillOnDestroy);
+    }
+
+    void OnDestroy()
+    {
+        DOTween.Kill(this);
     }
 }

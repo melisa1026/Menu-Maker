@@ -5,13 +5,13 @@ public class LevelStarter : MonoBehaviour
     public MenuInfoCard menuInfoCard;
     public CharacterCarousel characterCarousel;
     public GameObject characterTab, menuTab;
-    public static int difficulty = 0;
+    public static int difficulty = 1;
 
     void Awake()
     {
         // 1. create the Event on the Menu Info Card
         menuInfoCard.initialize(difficulty);
-        MenuInfoCard.HostEvent hostEvent = menuInfoCard.getEvent();
+        MealManager.HostEvent hostEvent = menuInfoCard.getEvent();
 
         // 2. initialize the characters
         int numCharacters = hostEvent.numGuests;

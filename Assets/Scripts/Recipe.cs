@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using TMPro;
 
 // !!! The intolerances I took out of the list (when there's 4) aren't detected (obviously!)
 
@@ -7,8 +7,13 @@ public class Recipe : MonoBehaviour
 {
     string recipeName;
     FoodDescription description;
-    
+
+    public MealManager.FoodType foodType;
     public GameObject tasteContainer, intoleranceContainer;
+    public TMP_Text chooseRecipeButtonText;
+
+    public int pageNumber;
+    public GameObject book;
 
     void Awake() {
 
@@ -16,10 +21,10 @@ public class Recipe : MonoBehaviour
 
         getFoodDescription();
         
-        Debug.Log("Intolerances: ");
-        foreach(bool i in description.intolerances) {
-            Debug.Log(i);
-        }
+        // make the button say the food type (ex: "Choose Appetizer")
+        chooseRecipeButtonText.text = "Choose " + foodType.ToString();
+
+        setPageNumber();
     }
 
     // automatically get the recipe name
@@ -45,5 +50,14 @@ public class Recipe : MonoBehaviour
             FoodIcon foodIcon = intolerance.Find("Food Icon").gameObject.GetComponent<FoodIcon>();
             description.addIntolerance(foodIcon.icon);
         }
+    }
+
+    public void chooseItem() {
+        MealManager mealManager = GameObject.Find("Meal Manager").gameObject.GetComponent<MealManager>();
+        mealManager.chooseMeal(this);
+    }
+
+    public void setPageNumber() {
+        pageNumber = transform.GetSiblingIndex();
     }
 }
